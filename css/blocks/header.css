@@ -1,0 +1,31 @@
+.header {
+  padding: 16px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header__navigation {
+  display: flex;
+  gap: 24px;
+}
+
+.header__buttons {
+  list-style: none;
+  margin: 0;
+  padding: 6px;
+  display: flex;
+  border: 1px solid #DBDFEC;
+  border-radius: 12px;
+}
+
+.header__buttons > .header__button-item {
+  min-width: 128px;
+}
+
+.header__buttons--small > .header__button-item {
+  min-width: 91px;
+}
