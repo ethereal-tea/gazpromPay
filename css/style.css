@@ -10,6 +10,9 @@
 @import "blocks/header.css";
 @import "blocks/btn.css";
 @import "blocks/hero.css";
+@import "blocks/features.css";
 @import "blocks/advantages.css";
+@import "blocks/payment.css";
+@import "blocks/clients.css";
 @import "blocks/card-advantages.css";
 @import "blocks/footer.css";

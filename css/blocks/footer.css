@@ -14,6 +14,9 @@
 .footer__contacts {
   grid-area: left;
   justify-self: start;
+  font-size: 13px;
+  line-height: 153%;
+  color: #6A6E80;
 }
 
 .footer__contacts-list {
@@ -35,12 +38,6 @@
 .footer__contact-item:last-child {
   gap: 12px;
   margin-top: 24px;
-}
-
-.footer__contact-text {
-  font-size: 13px;
-  line-height: 153%;
-  color: #6A6E80;
 }
 
 .footer__contact-link {
@@ -75,18 +72,15 @@
 .footer__info {
   grid-area: right;
   justify-self: start;
+  font-size: 13px;
+  line-height: 153%;
+  color: #6A6E80;
 }
 
 .footer__docs-list {
   list-style: none;
   margin: 0 0 32px;
   padding: 0;
-}
-
-.footer__doc-link, .footer__meta-text {
-  font-size: 13px;
-  line-height: 123%;
-  color: #6A6E80;
 }
 
 .footer__doc-item + .footer__doc-item {
