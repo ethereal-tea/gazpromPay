@@ -1,5 +1,4 @@
 .footer {
-  padding: 40px 0;
   background: #F4F6FA;
 }
 
@@ -12,6 +11,7 @@
 }
 
 .footer__contacts {
+  padding: 40px 0 0 0;
   grid-area: left;
   justify-self: start;
   font-size: 13px;
@@ -21,7 +21,7 @@
 
 .footer__contacts-list {
   list-style: none;
-  margin: 0;
+  margin: 40px 0 0 0;
   padding: 0;
 }
 
@@ -48,6 +48,7 @@
 }
 
 .footer__menu {
+  padding: 60px 0 40px;
   grid-area: center;
   justify-self: center;
 }
@@ -70,6 +71,7 @@
 }
 
 .footer__info {
+  padding: 60px 0 40px;
   grid-area: right;
   justify-self: start;
   font-size: 13px;
@@ -133,6 +135,7 @@
 
 .footer__bottom {
   grid-area: bottom;
+  padding: 0 0 40px 0;
 }
 
 .footer__location-info {

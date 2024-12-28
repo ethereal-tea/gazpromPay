@@ -4,7 +4,7 @@
 
 .hero__wrapper {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   column-gap: 150px;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .hero__heading {
-  margin: 0 0 30px 0;
+  margin: 0 0 24px 0;
   font-size: 40px;
   line-height: 48px;
 }
@@ -26,7 +26,11 @@
 }
 
 .hero__description {
-  margin: 0 0 30px 0;
+  margin: 0 0 48px 0;
   font-size: 18px;
   line-height: 24px;
+}
+
+.hero__btn {
+  min-width: 272px;
 }

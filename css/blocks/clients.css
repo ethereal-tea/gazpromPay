@@ -3,10 +3,11 @@
 }
 
 .clients__heading {
+    max-width: 520px;
+    margin: 0 auto 40px auto;
     font-size: 32px;
     line-height: 112%;
-    text-align: center;
-    margin: 0 0 40px 0;
+    text-align: center;   
 }
 
 .clients__list {
