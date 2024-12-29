@@ -6,6 +6,10 @@
   list-style-type: none;
 }
 
+.advantages--tiles .advantages__main-list {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .advantages__wrapper {
   width: 87%;
   max-width: 1080px;
@@ -29,6 +33,14 @@
   align-items: center;
   gap: 20px;
   text-align: center;
+}
+
+.advantages__main-item--large {
+  grid-column: span 2;
+}
+
+.advantages__main-item--small {
+  grid-column: span 1;
 }
 
 .advantages__icon {
