@@ -15,11 +15,19 @@
   align-items: flex-start;
 }
 
+.hero__content--short {
+  gap: 48px;
+}
+
 .hero__heading {
   margin: 0 0 24px 0;
   font-size: 40px;
   line-height: 48px;
 }
+
+.hero__content--short .hero__heading {
+  margin: 0px;
+} 
 
 .hero__heading-highlight {
   color: #476BF0;
